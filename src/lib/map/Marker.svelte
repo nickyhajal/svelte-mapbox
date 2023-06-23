@@ -66,9 +66,9 @@
   }
 </script>
 
-<div bind:this={element}>
+<button bind:this={element} on:click>
 <slot></slot>
-</div>
+</button>
 
 <div class='popup' bind:this={elementPopup}>
   <slot name="popup"></slot>
